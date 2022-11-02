@@ -1,4 +1,21 @@
+/* Body */
+body {
+  background: radial-gradient(#e66c2c, #3d2200);
+}
+
 /* Title */
 .page-title {
   font-size: 5.9vw;
+  font-family: "mr.monstar";
+  color: #880808;
+}
+
+/* Font Face */
+@font-face {
+  font-family: "mr.monstar";
+  src: URL("/assets/fonts/Mrmonstar-rg2EA.ttf") format("truetype");
+}
+
+.card {
+  border: none;
 }
